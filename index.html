@@ -1,0 +1,115 @@
+<index html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Be The Key - Confiance en Soi</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #FFF3CD;
+            color: #333;
+        }
+        header {
+            background-color: #FFA500;
+            padding: 20px;
+            text-align: center;
+            color: white;
+            font-size: 24px;
+            font-weight: bold;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background: #FFD700;
+            padding: 10px;
+        }
+        nav a {
+            margin: 0 15px;
+            text-decoration: none;
+            color: #333;
+            font-weight: bold;
+            padding: 10px 15px;
+            background: #FFA500;
+            border-radius: 5px;
+            transition: background 0.3s;
+        }
+        nav a:hover {
+            background: #FF8C00;
+            color: white;
+        }
+        .container {
+            padding: 20px;
+            text-align: center;
+        }
+        .gallery {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 10px;
+        }
+        .gallery img {
+            width: 200px;
+            height: auto;
+            border-radius: 10px;
+        }
+        .contact-form {
+            max-width: 400px;
+            margin: auto;
+            padding: 20px;
+            background: white;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .contact-form input, .contact-form textarea {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid #FFA500;
+            border-radius: 5px;
+        }
+        .contact-form button {
+            background: #FFA500;
+            color: white;
+            padding: 10px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .contact-form button:hover {
+            background: #FF8C00;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="Logo.png" alt="Be The Key Logo" width="50"> Be The Key
+    </header>
+    <nav>
+        <a href="#">Accueil</a>
+        <a href="#galerie">Galerie</a>
+        <a href="#contact">Contact</a>
+    </nav>
+    <div class="container">
+        <h1>Bienvenue sur Be The Key</h1>
+        <p>Travaillez votre confiance en vous pour une vie plus épanouie.</p>
+    </div>
+    <div id="galerie" class="gallery">
+        <img src="img1.png" alt="Coaching">
+        <img src="img2.png" alt="Motivation">
+        <img src="image3.png" alt="Réussite">
+    </div>
+    <div id="contact" class="container">
+        <h2>Contactez-nous</h2>
+        <form class="contact-form">
+            <input type="text" placeholder="Votre nom" required>
+            <input type="email" placeholder="Votre email" required>
+            <textarea placeholder="Votre message" rows="4" required></textarea>
+            <button type="submit">Envoyer</button>
+        </form>
+    </div>
+</body>
+</html>
+10:56 13/03/2025
